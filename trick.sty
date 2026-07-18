@@ -1,40 +1,29 @@
 \usepackage[utf8]{inputenc}
-
-%\usepackage{research}
-
+\usepackage{fullpage}
 \usepackage{amsmath}
-
+\usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{amsfonts}
 \usepackage{graphicx}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+
+% Link configuration
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
 
 \theoremstyle{definition}
-
 \newtheorem{problem}{\textbf{\textsf{Problem}}}
-
-%\newtheorem{theorem}{\textbf{\textsf{Theorem}}}[section]
-
-
-
 
 \newcommand{\prob}[2]{\begin{problem}[#1]
 #2
 \end{problem}}
-
 
 \newcommand{\fig}[2]{\begin{figure}[h]
     \centering
     \includegraphics[width=#2\textwidth]{img/#1.jpg}
 \end{figure}}
 
-
 \newtheorem{idea}{\textbf{\textsf{Idea}}}
-
-
-
-
-%\newcommand{\thm}[2]{\begin{theorem}[#1]
-%
-%#2
-%
-%\end{theorem}}
